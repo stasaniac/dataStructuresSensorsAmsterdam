@@ -1,4 +1,4 @@
-# Assignment 2
+# Fictional Project for Amsterdam sensors using arrays, dictionaries and heaps.
 
 This archive contains instructions/information if you wish to develop and test you code locally.
 
@@ -24,7 +24,7 @@ pytest test_assignment_2_shared
 If you wish to test locally in a similar environment as the `CodeGrade` instances, and, are familiar with [pyenv](https://github.com/pyenv/pyenv), you can use the following setup. If you are more familiar with `conda` you can search on the web on how to install PyPy there.
 
 > **Warning**
-> Keep in mind that while PyPy will be used if you follow the setup, execution times might still be affected by the power of your machine. **You code is graded on whether the tests pass on CodeGrade and not your own machines**
+> Keep in mind that while PyPy will be used if you follow the setup, execution times might still be affected by the power of your machine. 
 
 
 ```bash
