@@ -38,10 +38,10 @@ pyenv global pypy3.8-7.3.9
 python -m pip install -U -r requirements.txt
 
 # Run the tests for a specific task where X in [1, 3]
-pytest test_assignment_2_shared -m task_X
+pytest test -m task_X
 
 # Run the tests for all tasks 
-python -m pytest test_assignment_2_shared  # (`python -m` can be omitted)
+python -m pytest test  # (`python -m` can be omitted)
 
 # Restore python version when you are done
 pyenv global system
